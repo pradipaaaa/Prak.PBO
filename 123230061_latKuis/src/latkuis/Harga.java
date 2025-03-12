@@ -13,7 +13,7 @@ public class Harga extends JFrame {
         add(new JLabel("Nama: " + nama));
         add(new JLabel("Telepon: " + telepon));
         add(new JLabel("Kendaraan: " + kendaraan));
-        add(new JLabel("Harga Sewa per Hari: Rp " + harga));
+        add(new JLabel("Harga Sewa per Hari: Rp" + harga));
         add(new JLabel("Total Harga: Rp " + (harga * hari)));
         
         JButton btnSelesai = new JButton("Selesai");
